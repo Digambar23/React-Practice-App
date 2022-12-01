@@ -1,5 +1,4 @@
-import { click } from "@testing-library/user-event/dist/click";
-import {useState} from "react";
+import {useEffect, useState} from "react";
 import ProductCard from "./ProductCard/ProductCard";
 import Footer from "./Shared/Header/Footer/footer";
 import Header from "./Shared/Header/Footer/header";
@@ -53,7 +52,7 @@ return(
               <ProductCard item={product} index={i} />
             </div>
           ))}
-          
+
         </div>
       </div>
       <Footer />
