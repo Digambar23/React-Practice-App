@@ -1,0 +1,19 @@
+
+
+.links{
+    width:100%;
+    display:flex;
+    justify-content:end;
+    margin-right:0 !important;
+    color: blueviolet !important;
+}
+.nav-link{
+    color:black !important;
+    font-size: 12px !important;
+}
+.bg-blue{
+    background-color:rgb(28, 231, 197) !important;
+}
+.Header{
+    text-align:center ;
+}
