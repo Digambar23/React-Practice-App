@@ -48,7 +48,7 @@ return(
         {/* Products */}
         <div className="row">
           {products.map((product, i) => (
-            <div className="col-3">
+            <div key={i} className="col-3">
               <ProductCard item={product} index={i} />
             </div>
           ))}
